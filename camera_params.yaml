@@ -1,0 +1,16 @@
+# DJI camera parameters for GSD and overlap calculation.
+# Keys must match the EXIF Model tag value (e.g., "M3E", "H30T").
+# All five fields are required per model.
+M3E:
+  focal_length_mm: 12.0
+  sensor_width_mm: 17.3
+  sensor_height_mm: 13.0
+  image_width_px: 5280
+  image_height_px: 3956
+
+H30T:
+  focal_length_mm: 12.0
+  sensor_width_mm: 17.3
+  sensor_height_mm: 13.0
+  image_width_px: 4000
+  image_height_px: 3000
